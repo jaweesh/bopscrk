@@ -143,6 +143,10 @@ pip install -r requirements.txt
 bopscrk -i
 ```
 
+```
+docker run -v $(pwd):/opt -it --rm --name bop bop:1 -w mohamed,ahmed -m 4 -M 10 -c -l -o /opt/tmp.txt
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
